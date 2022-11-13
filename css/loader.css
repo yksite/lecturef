@@ -1,0 +1,52 @@
+.loader{
+    display: block;
+
+    z-index: 90;
+
+    width: 200px;
+    height: 50px;
+    
+    padding: 10px;
+    text-align: center;
+
+    margin: auto;
+    position: fixed;
+    top: -15%; left: 0; bottom: 0; right: 0;
+
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+
+    user-select: none;
+	pointer-events: none;
+
+    background-image: url(assets/loader.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.reconnecting{
+    display: none;
+    
+    z-index: 90;
+
+    width: 200px;
+    height: 50px;
+    
+    padding: 10px;
+    text-align: center;
+
+    margin: auto;
+    position: fixed;
+    top: -15%; left: 0; bottom: 0; right: 0;
+
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+
+    user-select: none;
+	pointer-events: none;
+
+    background-image: url(assets/reconnecting.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

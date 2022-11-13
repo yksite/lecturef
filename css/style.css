@@ -1,0 +1,51 @@
+/*pointer*/
+body {
+	cursor: pointer;
+}
+/*title*/
+#title {
+	margin-top: 1vw;
+	margin-bottom: 2vw;
+	width: 50vw;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font: 40px "Times New Roman", Times, serif;
+}
+/*body*/
+p {
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	margin-right: 12vw;
+	margin-left: 12vw;
+	text-indent: 4vw;
+	font: 22px "Times New Roman", Times, serif;
+    user-select: none;
+} 
+#textbody {
+	margin: 0%;
+	padding: 0%;
+}
+/*source*/
+.source {
+	margin-right: 12vw;
+	text-align: right;
+}
+
+/*post-it*/
+#post-it {
+	text-align: center;
+	font: 30px "Times New Roman", Times, serif;
+	
+	display: none;
+	position: fixed;
+	padding: 1rem;
+    top: 3.5vw; right: 3.5vw;
+    z-index: 90;
+	width: 25vw;
+	height: fit-content;
+	background-color: #f2f3a9;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.50);
+	word-wrap: break-word;
+	user-select: none;
+}
